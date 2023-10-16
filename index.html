@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            width: 500px;
+            margin-left: auto;
+            margin-right: auto; 
+            border:solid black 1px;
+            padding: 20px;
+            color: purple;
+            background-image:linear-gradient(rgb(221, 127, 4), pink, red )
+            
+        }
+        #imie{
+            background-image:linear-gradient(rgb(255, 2, 2), rgb(216, 49, 77), rgb(255, 154, 154) )
+        }
+        #nazwisko{
+            background-image:linear-gradient(rgb(255, 2, 2), rgb(216, 49, 77), rgb(255, 154, 154) )
+        }
+        #email{
+            background-image: linear-gradient(rgb(255, 154, 154),  rgb(216, 49, 77),rgb(255, 2, 2))
+        }
+        #password{
+            background-image: linear-gradient( rgb(255, 154, 154), rgb(216, 49, 77),rgb(255, 2, 2) )
+        }
+        #color{
+            background-image: linear-gradient( rgb(255, 154, 154), rgb(216, 49, 77),rgb(255, 2, 2) )
+        }
+        #submit{
+            background-image: linear-gradient( rgb(255, 154, 154), rgb(216, 49, 77),rgb(255, 2, 2) )
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="imie">Imię:</label><br>
+        <input type="text" id="imie" name="imie" placeholder="napisz swoje imie"><br>
+        <label for="nazwisko">Nazwisko</label><br>
+        <input type="text" name="nazwisko" id="nazwisko"placeholder="napisz swoje nazwisko"><br>
+        <label for="email">Email</label><br>
+        <input type="mail" name="email" id="email" placeholder="napisz swoj email "><br>
+        <label for="password">Hasło</label><br>
+        <input type="password" name="password" id="password" placeholder="napisz swoje hasło"><br>
+        <label for="color">wybierz swój kolor</label><br>
+        <input type="color" name="color" id="color" value="#666456"><br>
+        <input type="submit" name="submit" id="submit" value="Wyślij">
+
+    </form>
+</body>
+</html>
